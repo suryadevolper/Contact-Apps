@@ -1,0 +1,140 @@
+/* #tbl{
+    background-color:rgb(168, 88, 168);
+    width: 1120px;
+}
+td{
+    border: 1px solid #000;
+    width: 145px;
+    height: 30px;
+    background-color: darkkhaki;
+    text-align: center;
+}
+table td .btn{
+    height: 30px;
+    width: 70px;
+    border: 1px solid #000;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    
+}
+#check{
+    width: 20px;
+    height: 20px;
+   margin-left: 35px;
+}
+
+
+@media only screen and (max-width:767px){
+    #tbl{
+        width: 280px;
+    }
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+  }
+  
+  #tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  #tbl th, #tbl td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  #tbl th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #tbl td {
+    background-color: #fff;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn i {
+    margin-right: 5px;
+  }
+  
+  #tabel {
+    background-color: #fafafa;
+  }
+  
+  #check {
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    #tbl {
+      width: 100%;
+    }
+  
+    #tbl tr {
+      display: block;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+    }
+  
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  
+    td button {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    #tbl {
+      width: 300px !important;
+    }
+    #tbl tr{
+      display: flex;
+      justify-content:space-around ;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    .btn {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+    }
+  
+    td button {
+      font-size: 0.7rem;
+    }
+    .expelliarmus{
+      display: none;
+    }
+  }
+  

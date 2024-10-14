@@ -1,0 +1,78 @@
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #3c4752;
+  }
+  
+  #navbar img {
+    width: 50px; 
+  }
+  
+  #navbar h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .input_head {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  @media only screen and (min-width: 1024px) {
+    #navbar {
+      padding: 20px 50px;
+      height: 80px;
+    }
+  
+    #navbar h2 {
+      font-size: 28px;
+    }
+  
+    .input_head {
+      width: 300px;
+    }
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #navbar {
+      padding: 15px 30px;
+    }
+  
+    #navbar h2 {
+      font-size: 24px;
+    }
+  
+    .input_head {
+      width: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    #navbar {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    #navbar img {
+      width: 120px;
+    }
+  
+    #navbar h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+  
+    .input_head {
+      width: 100%;
+    }
+  }
+  
