@@ -6,7 +6,6 @@ import Form from './Component/Form'
 import GetForm from './Component/GetForm'
 import {Route, Routes } from 'react-router-dom'
 import Edit from './Component/Edit'
-import Fav from './Component/Fav'
 
 export default function App() {
 
@@ -21,7 +20,6 @@ export default function App() {
         <Route path='/' element={<Form/>}/>
         <Route path='/read' element={<GetForm/>}/>
         <Route path='/edit' element={<Edit/>}/>
-        <Route path='/fav' element={<Fav/>}/>
       </Routes>
     </div>
     
